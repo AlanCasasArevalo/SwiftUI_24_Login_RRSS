@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		516F9E5F25062E17002CB3F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E5E25062E17002CB3F8 /* Preview Assets.xcassets */; };
 		516F9E6225062E17002CB3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E6025062E17002CB3F8 /* LaunchScreen.storyboard */; };
 		516F9E6A25062F2A002CB3F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E6925062F2A002CB3F8 /* GoogleService-Info.plist */; };
+		516F9E6C25063682002CB3F8 /* LoginFacebook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F9E6B25063682002CB3F8 /* LoginFacebook.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		516F9E6125062E17002CB3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		516F9E6325062E17002CB3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		516F9E6925062F2A002CB3F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		516F9E6B25063682002CB3F8 /* LoginFacebook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFacebook.swift; sourceTree = "<group>"; };
 		9CF875E82B537CD206A2DEA2 /* Pods-SwiftUI_24_Login_RRSS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_24_Login_RRSS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS.debug.xcconfig"; sourceTree = "<group>"; };
 		B57D3A5208065BDAE0ADEE2B /* Pods-SwiftUI_24_Login_RRSS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_24_Login_RRSS.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +71,7 @@
 				516F9E5525062E14002CB3F8 /* AppDelegate.swift */,
 				516F9E5725062E14002CB3F8 /* SceneDelegate.swift */,
 				516F9E5925062E14002CB3F8 /* ContentView.swift */,
+				516F9E6B25063682002CB3F8 /* LoginFacebook.swift */,
 				516F9E5B25062E17002CB3F8 /* Assets.xcassets */,
 				516F9E6025062E17002CB3F8 /* LaunchScreen.storyboard */,
 				516F9E6325062E17002CB3F8 /* Info.plist */,
@@ -99,7 +102,6 @@
 				9CF875E82B537CD206A2DEA2 /* Pods-SwiftUI_24_Login_RRSS.debug.xcconfig */,
 				B57D3A5208065BDAE0ADEE2B /* Pods-SwiftUI_24_Login_RRSS.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -238,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				516F9E5625062E14002CB3F8 /* AppDelegate.swift in Sources */,
+				516F9E6C25063682002CB3F8 /* LoginFacebook.swift in Sources */,
 				516F9E5825062E14002CB3F8 /* SceneDelegate.swift in Sources */,
 				516F9E5A25062E14002CB3F8 /* ContentView.swift in Sources */,
 			);
