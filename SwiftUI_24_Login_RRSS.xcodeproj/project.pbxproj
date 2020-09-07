@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2096F72D1B49EE57E0170A77 /* Pods_SwiftUI_24_Login_RRSS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4031C3ECD987041B044066F2 /* Pods_SwiftUI_24_Login_RRSS.framework */; };
 		516F9E5625062E14002CB3F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F9E5525062E14002CB3F8 /* AppDelegate.swift */; };
 		516F9E5825062E14002CB3F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F9E5725062E14002CB3F8 /* SceneDelegate.swift */; };
 		516F9E5A25062E14002CB3F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516F9E5925062E14002CB3F8 /* ContentView.swift */; };
 		516F9E5C25062E17002CB3F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E5B25062E17002CB3F8 /* Assets.xcassets */; };
 		516F9E5F25062E17002CB3F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E5E25062E17002CB3F8 /* Preview Assets.xcassets */; };
 		516F9E6225062E17002CB3F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E6025062E17002CB3F8 /* LaunchScreen.storyboard */; };
+		516F9E6A25062F2A002CB3F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 516F9E6925062F2A002CB3F8 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4031C3ECD987041B044066F2 /* Pods_SwiftUI_24_Login_RRSS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftUI_24_Login_RRSS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		516F9E5225062E14002CB3F8 /* SwiftUI_24_Login_RRSS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_24_Login_RRSS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		516F9E5525062E14002CB3F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		516F9E5725062E14002CB3F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		516F9E5E25062E17002CB3F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		516F9E6125062E17002CB3F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		516F9E6325062E17002CB3F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		516F9E6925062F2A002CB3F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9CF875E82B537CD206A2DEA2 /* Pods-SwiftUI_24_Login_RRSS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_24_Login_RRSS.debug.xcconfig"; path = "Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS.debug.xcconfig"; sourceTree = "<group>"; };
+		B57D3A5208065BDAE0ADEE2B /* Pods-SwiftUI_24_Login_RRSS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftUI_24_Login_RRSS.release.xcconfig"; path = "Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2096F72D1B49EE57E0170A77 /* Pods_SwiftUI_24_Login_RRSS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				516F9E5425062E14002CB3F8 /* SwiftUI_24_Login_RRSS */,
 				516F9E5325062E14002CB3F8 /* Products */,
+				D56047A0C9F338E2200410C4 /* Pods */,
+				5CED8D69935F3F1EC49321B6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +65,7 @@
 		516F9E5425062E14002CB3F8 /* SwiftUI_24_Login_RRSS */ = {
 			isa = PBXGroup;
 			children = (
+				516F9E6925062F2A002CB3F8 /* GoogleService-Info.plist */,
 				516F9E5525062E14002CB3F8 /* AppDelegate.swift */,
 				516F9E5725062E14002CB3F8 /* SceneDelegate.swift */,
 				516F9E5925062E14002CB3F8 /* ContentView.swift */,
@@ -75,6 +85,24 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		5CED8D69935F3F1EC49321B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4031C3ECD987041B044066F2 /* Pods_SwiftUI_24_Login_RRSS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D56047A0C9F338E2200410C4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9CF875E82B537CD206A2DEA2 /* Pods-SwiftUI_24_Login_RRSS.debug.xcconfig */,
+				B57D3A5208065BDAE0ADEE2B /* Pods-SwiftUI_24_Login_RRSS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 516F9E6625062E17002CB3F8 /* Build configuration list for PBXNativeTarget "SwiftUI_24_Login_RRSS" */;
 			buildPhases = (
+				D9C9CA3408DA5B8BBE9BB660 /* [CP] Check Pods Manifest.lock */,
 				516F9E4E25062E14002CB3F8 /* Sources */,
 				516F9E4F25062E14002CB3F8 /* Frameworks */,
 				516F9E5025062E14002CB3F8 /* Resources */,
+				C59C47290145BAB1092E6668 /* [CP] Embed Pods Frameworks */,
+				91491E2A5B8462838DBBBE57 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,12 +165,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				516F9E6225062E17002CB3F8 /* LaunchScreen.storyboard in Resources */,
+				516F9E6A25062F2A002CB3F8 /* GoogleService-Info.plist in Resources */,
 				516F9E5F25062E17002CB3F8 /* Preview Assets.xcassets in Resources */,
 				516F9E5C25062E17002CB3F8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91491E2A5B8462838DBBBE57 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59C47290145BAB1092E6668 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftUI_24_Login_RRSS/Pods-SwiftUI_24_Login_RRSS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9C9CA3408DA5B8BBE9BB660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftUI_24_Login_RRSS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		516F9E4E25062E14002CB3F8 /* Sources */ = {
@@ -282,6 +373,7 @@
 		};
 		516F9E6725062E17002CB3F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CF875E82B537CD206A2DEA2 /* Pods-SwiftUI_24_Login_RRSS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -302,6 +394,7 @@
 		};
 		516F9E6825062E17002CB3F8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57D3A5208065BDAE0ADEE2B /* Pods-SwiftUI_24_Login_RRSS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
